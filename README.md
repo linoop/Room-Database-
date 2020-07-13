@@ -51,4 +51,4 @@ Be an abstract class that extends RoomDatabase.
 
 Include the list of entities associated with the database within the annotation.
 Contain an abstract method that has 0 arguments and returns the class that is annotated with @Dao.
-At runtime, you can acquire an instance of Database by calling Room.databaseBuilder() orRoom.inMemoryDatabaseBuilder().
+At runtime, you can acquire an instance of Database by calling Room.databaseBuilder() or Room.inMemoryDatabaseBuilder().
